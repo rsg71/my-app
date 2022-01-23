@@ -1,10 +1,10 @@
 // import logo from './logo.svg';
-import './App.css';
 import {Routes, Route} from 'react-router-dom';
 import Home from './pages/Home/Home';
 import Portfolio from './pages/Portfolio/Portfolio';
 import Resume from './pages/Resume/Resume';
 import Contact from './pages/Contact/Contact';
+import './App.css';
 
 
 function App() {

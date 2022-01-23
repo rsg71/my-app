@@ -28,6 +28,24 @@
   color: #61dafb;
 }
 
+.jumbotron {
+  border-radius:0 !important;
+  /* background-color:whitesmoke; */
+  background-image: url("../public/imgs/portfolio_background_colors_blue.jpg");
+  width:100%;
+  display:flex;
+  justify-content: center;
+  color:white;
+  font-family: 'Bungee Shade', cursive;
+}
+
+
+img {
+  max-width: 100%;
+}
+
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
