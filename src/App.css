@@ -29,13 +29,13 @@
 }
 
 .jumbotron {
-  border-radius:0 !important;
+  border-radius: 0 !important;
   /* background-color:whitesmoke; */
   background-image: url("../public/imgs/portfolio_background_colors_blue.jpg");
-  width:100%;
-  display:flex;
+  width: 100%;
+  display: flex;
   justify-content: center;
-  color:white;
+  color: white;
   font-family: 'Bungee Shade', cursive;
 }
 
@@ -50,7 +50,91 @@ img {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+
+/* ============================================================== */
+/* media queries */
+/* ============================================================== */
+
+@media all and (max-width: 768px) {
+
+  #resumeContainer {
+    max-width: 70% !important;
+  }
+
+
+  .columnMargin {
+    margin-bottom: 1em
+  }
+}
+
+@media all and (min-width: 768px) {
+  /* .contactContainer {
+      max-width: 50%;
+  } */
+
+}
+
+@media all and (max-width: 576px) {
+
+  .myContainer {
+    width: 85% !important;
+  }
+
+  .jumbotron h1 {
+    font-size: 3rem;
+  }
+
+  #restaurantFinder {
+    margin-bottom: 1.45rem;
+  }
+
+  .devicon-javascript-plain {
+    font-size: 2.3rem;
+  }
+
+  .carousel-inner img {
+    height: 30vh;
+  }
+
+  .card img {
+    height: 30vh;
+  }
+
+  .footer {
+    height: 30vh;
+  }
+
+  .footerContact {
+    height: 25vh;
+  }
+
+  .footer p {
+    font-size: 10px;
+  }
+
+  .fluidFooter h5 {
+    padding-bottom: 6px;
+  }
+
+  #resumeContainer {
+    width: 100%;
+    max-width: 100% !important;
+  }
+
+  .contactContainer {
+    min-height: 675px
+  }
+
+  #contactSubmitBtn, #contactSendingBtn, #contactSubmittedBtn {
+    width: 100%;
+    margin-bottom: 30%;
+
+  }
+
 }
