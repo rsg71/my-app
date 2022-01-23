@@ -1,5 +1,6 @@
 import React from 'react';
 import Footer from '../../components/Footer/Footer';
+import Jumbotron from '../../components/Jumbotron/Jumbotron';
 import NavigationBar from '../../components/NavigationBar/NavigationBar';
 
 export default function Resume() {
@@ -9,7 +10,7 @@ export default function Resume() {
 
             <NavigationBar />
 
-            
+            <Jumbotron  title="Resume"/>
             <Footer />
         </div>
     );

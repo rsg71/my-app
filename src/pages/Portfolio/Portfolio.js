@@ -5,6 +5,7 @@ import ProjectCard from '../../components/ProjectCard/ProjectCard';
 import myProjects from '../../data/Projects';
 import NavigationBar from '../../components/NavigationBar/NavigationBar';
 import "./Portfolio.css";
+import Jumbotron from '../../components/Jumbotron/Jumbotron';
 
 export default function Portfolio() {
 
@@ -13,9 +14,7 @@ export default function Portfolio() {
 
             <NavigationBar />
 
-            <div class="jumbotron py-5">
-                <h1 class="display-4">Portfolio</h1>
-            </div>
+            <Jumbotron title="Portfolio" />
 
 
             <Row>
