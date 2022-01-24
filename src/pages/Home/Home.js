@@ -18,11 +18,11 @@ export default function Home() {
                 <Col></Col>
                 <Col>
                     <h1>
-                        &#91; <a href="https://github.com/rsg71" class="text-decoration-none" target="_blank" rel="noreferrer"><i class="fab fa-github"></i></a> ,
-                        <a href="https://www.linkedin.com/in/robert-greenawalt/" class="text-decoration-none" target="_blank" rel="noreferrer"><i
-                            class="fab fa-linkedin"></i></a> ,
-                        <a href="mailto:robert.greenawalt29@gmail.com" class="text-decoration-none"><i
-                            class="far fa-envelope"></i></a> &#93;
+                        &#91; <a href="https://github.com/rsg71" className="text-decoration-none" target="_blank" rel="noreferrer"><i className="fab fa-github"></i></a> ,
+                        <a href="https://www.linkedin.com/in/robert-greenawalt/" className="text-decoration-none" target="_blank" rel="noreferrer"><i
+                            className="fab fa-linkedin"></i></a> ,
+                        <a href="mailto:robert.greenawalt29@gmail.com" className="text-decoration-none"><i
+                            className="far fa-envelope"></i></a> &#93;
                     </h1>
                 </Col>
             </Row>
@@ -31,12 +31,12 @@ export default function Home() {
 
                 <Row className="bg-black text-white px-5">
                     <Col>
-                        <div class="row animate__animated animate__fadeIn">
-                            <div class="col-sm-12">
-                                <h2 class="recursiveFont"> I'm Robert, a <em class="recursiveFont">full-stack developer</em> and lifelong
+                        <div className="row animate__animated animate__fadeIn">
+                            <div className="col-sm-12">
+                                <h2 className="recursiveFont"> I'm Robert, a <em className="recursiveFont">full-stack developer</em> and lifelong
                                     learner.</h2>
                                 <br />
-                                <p class="coreCompetencies">Core competencies include: MongoDB, MySQL, Express, React, and Node. Check
+                                <p className="coreCompetencies">Core competencies include: MongoDB, MySQL, Express, React, and Node. Check
                                     out
                                     some of my work in my <a href="portfolio.html">portfolio</a>, add me on <a
                                         href="https://www.linkedin.com/in/robert-greenawalt-43457a14a/" target="_blank" rel="noreferrer">LinkedIn</a>, or send me an
@@ -48,8 +48,8 @@ export default function Home() {
                 </Row>
 
                 <Row>
-                    <div class="col-sm-12">
-                        <h3 class="projects animate__animated animate__fadeIn text-white">P r o j e c t s :</h3>
+                    <div className="col-sm-12">
+                        <h3 className="projects animate__animated animate__fadeIn text-white">P r o j e c t s :</h3>
                     </div>
                     <br />
                 </Row>
