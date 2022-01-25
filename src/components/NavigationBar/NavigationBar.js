@@ -8,7 +8,7 @@ export default function NavigationBar() {
 
     return (
         < >
-            <Navbar bg="black" expand="lg" variant="dark">
+            <Navbar bg="black" expand="lg" variant="dark" >
                 <Container>
                     <Navbar.Brand as={Link} to="/" >
                         <img

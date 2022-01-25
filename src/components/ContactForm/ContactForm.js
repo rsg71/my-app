@@ -45,37 +45,40 @@ export default function ContactForm() {
 
     return (
         <>
-            <Row>
-                <Col lg={6}>
-                    <div className="contactEmailPhone">
-                        <h1><i className="far fa-envelope"></i> Email:</h1>
-                        <a href="mailto:robert.greenawalt29@gmail.com">robert.greenawalt29@gmail.com</a>
-                    </div>
-
-                    <div className="contactEmailPhone">
-                        <h1><i className="fas fa-phone-alt"></i> Phone: </h1>
-                        <a href="tel:2159137231"> (215) - 913 - 7231</a>
-                    </div>
+            <Row className="m-5">
+                <Col sm={12} lg={6} className="">
+                    <Row>
+                        <div className="contactEmailPhone">
+                            <h1><i className="far fa-envelope"></i> Email:</h1>
+                            <a href="mailto:robert.greenawalt29@gmail.com">robert.greenawalt29@gmail.com</a>
+                        </div>
+                    </Row>
+                    <Row>
+                        <div className="contactEmailPhone">
+                            <h1><i className="fas fa-phone-alt"></i> Phone: </h1>
+                            <a href="tel:2159137231"> (215) - 913 - 7231</a>
+                        </div>
+                    </Row>
                 </Col>
 
-                <Col lg={6}>
+                <Col sm={12} lg={4} className="mb-5">
                     {!success &&
                         <form id="contact-form" onSubmit={sendEmail}>
                             <div className="form-group">
                                 <input type="hidden" name="contact_number" />
                                 <label htmlFor="username">Your Name</label>
-                                <input name="user_name" type="text" className={sending ? "form-control sendingForm" : "form-control"} id="username" required disabled={sending} />
+                                <input name="user_name" type="text" className={sending ? "form-control mb-2 sendingForm" : "form-control mb-2"} id="username" required disabled={sending} />
                             </div>
 
                             <div className="form-group">
                                 <label htmlFor="useremail">Your Email</label>
-                                <input name="user_email" type="email" className={sending ? "form-control sendingForm" : "form-control"} id="useremail" placeholder="name@mail.com"
+                                <input name="user_email" type="email" className={sending ? "form-control mb-2 sendingForm" : "form-control mb-2"} id="useremail" placeholder="name@mail.com"
                                     required disabled={sending} />
                             </div>
 
                             <div className="form-group">
                                 <label htmlFor="inputTextarea">Message</label>
-                                <textarea name="message" className={sending ? "form-control sendingForm" : "form-control"} id="usermessage" rows="3" required disabled={sending} ></textarea>
+                                <textarea name="message" className={sending ? "form-control mb-2 sendingForm" : "form-control mb-2"} id="usermessage" rows="3" required disabled={sending} ></textarea>
                             </div>
 
                             <input type="hidden" name="_subject" value="Personal Portfolio Email" />
@@ -93,8 +96,6 @@ export default function ContactForm() {
 
                     {success && <div className="p-5 greenBadge mt-3"> ✔ Message sent successfully </div>}
                     {error && <div className="text-danger">There was an error submitting the form</div>}
-
-
 
 
                 </Col>

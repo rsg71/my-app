@@ -71,3 +71,36 @@
     height: 15vw;
     object-fit: cover;
 }
+
+
+
+@media all and (max-width: 2600px) {
+    .homeContainer {
+        max-width: 80% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+    .homePageLinks {
+        float: right;
+    }
+    .paddingHomepage{ 
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+}
+
+@media all and (max-width: 576px) {
+    .homeContainer {
+        max-width: 100% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+    .homePageLinks {
+        float: left;
+    }
+    .paddingHomepage{ 
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

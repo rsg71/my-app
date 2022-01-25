@@ -7,13 +7,14 @@ import "./Contact.css";
 
 
 
-import{ init } from '@emailjs/browser';
+import { init } from '@emailjs/browser';
 init("user_sw3Id8dB1tRbzmfwsA1sj");
 
 
 export default function Contact() {
     return (
-        <div className="bg-black text-white">
+        <div className="bg-black text-white ">
+
             <NavigationBar />
 
             <Jumbotron title="Contact" />

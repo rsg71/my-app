@@ -4,7 +4,7 @@ export default function ProjectCard({ project }) {
     const { imageSource, imageAlt, projectLink, repoLink } = project;
 
     return (
-        <div className="row animate__animated animate__fadeIn">
+        <div className="animate__animated animate__fadeIn">
                 <div className="image">
                     <img className="image__img" src={imageSource} alt={imageAlt} style={{maxWidth:"100%"}}/>
                     <div className="image__overlay">
