@@ -61,7 +61,7 @@ export default function ContactForm() {
                     </Row>
                 </Col>
 
-                <Col sm={12} lg={4} className="mb-5">
+                <Col sm={12} lg={6} className="mb-5">
                     {!success &&
                         <form id="contact-form" onSubmit={sendEmail}>
                             <div className="form-group">

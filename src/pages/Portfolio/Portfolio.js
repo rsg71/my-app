@@ -17,39 +17,40 @@ export default function Portfolio() {
             <Jumbotron title="Portfolio" />
 
             <Container>
+                <div className="homeContainer">
 
-                <Row className="mt-3">
-                    {myProjects.slice(0, 2).map(project => (
-                        <Col key={project.id} sm={6} md={6} lg={4} className="mb-3">
-                            <ProjectCard project={project} />
-                        </Col>
-                    ))}
-                </Row>
+                    <Row className="mt-3">
+                        {myProjects.slice(0, 2).map(project => (
+                            <Col key={project.id} sm={6} md={6} lg={4} className="mb-3">
+                                <ProjectCard project={project} />
+                            </Col>
+                        ))}
+                    </Row>
 
-                <Row>
-                    {myProjects.slice(2, 4).map(project => (
-                        <Col key={project.id} sm={6} md={6} lg={4} className="mb-3">
-                            <ProjectCard project={project} />
-                        </Col>
-                    ))}
-                </Row>
+                    <Row>
+                        {myProjects.slice(2, 4).map(project => (
+                            <Col key={project.id} sm={6} md={6} lg={4} className="mb-3">
+                                <ProjectCard project={project} />
+                            </Col>
+                        ))}
+                    </Row>
 
-                <Row>
-                    {myProjects.slice(4, 6).map(project => (
-                        <Col key={project.id} sm={6} md={6} lg={4} className="mb-3">
-                            <ProjectCard project={project} />
-                        </Col>
-                    ))}
-                </Row>
+                    <Row>
+                        {myProjects.slice(4, 6).map(project => (
+                            <Col key={project.id} sm={6} md={6} lg={4} className="mb-3">
+                                <ProjectCard project={project} />
+                            </Col>
+                        ))}
+                    </Row>
 
-                <Row>
-                    {myProjects.slice(6, 8).map(project => (
-                        <Col key={project.id} sm={6} md={6} lg={4} className="mb-3">
-                            <ProjectCard project={project} />
-                        </Col>
-                    ))}
-                </Row>
-
+                    <Row>
+                        {myProjects.slice(6, 8).map(project => (
+                            <Col key={project.id} sm={6} md={6} lg={4} className="mb-3">
+                                <ProjectCard project={project} />
+                            </Col>
+                        ))}
+                    </Row>
+                </div>
             </Container>
 
             <Footer />

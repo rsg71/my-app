@@ -11,7 +11,7 @@ const myProjects = [
     {
         id: 2,
         name: "Restaurant Finder",
-        technologies: ["MERN stack", "Passport.js", "bcrypt"],
+        technologies: ["MySQL", "Express", "Node", "Passport", "Javascript", "Google Maps API"],
         imageSource: "imgs/restaurant-finder-shotsnapp-screen.png",
         imageAlt: "restaurant finder",
         projectLink: "https://findtherestaurant500.herokuapp.com/",
@@ -20,7 +20,7 @@ const myProjects = [
     {
         id: 3,
         name: "Budget Tool",
-        technologies: ["MERN stack", "Passport.js", "bcrypt"],
+        technologies: ["Javascript", "Express", "Node"],
         imageSource: "imgs/budget_tool_shotsnapp.png",
         imageAlt: "budget too",
         projectLink: "https://budget-tracker-rsg.herokuapp.com/",
@@ -29,7 +29,7 @@ const myProjects = [
     {
         id: 4,
         name: "Weather App",
-        technologies: ["MERN stack", "Passport.js", "bcrypt"],
+        technologies: [" Javascript", "Open Weather API"],
         imageSource: "imgs/weather-app-rotated-blackbackground2.png",
         imageAlt: "weather app",
         projectLink: "https://rsg71.github.io/Weather-App/",
@@ -38,7 +38,7 @@ const myProjects = [
     {
         id: 5,
         name: "Brewery Finder",
-        technologies: ["MERN stack", "Passport.js", "bcrypt"],
+        technologies: ["Javascript", "Yelp API", "OpenBreweryDB API", "Google Maps API"],
         imageSource: "imgs/brewery-finder-shotsnapp.png",
         imageAlt: "brewery finder",
         projectLink: "https://lambaa94.github.io/Brewery-Finder/",
@@ -47,7 +47,7 @@ const myProjects = [
     {
         id: 6,
         name: "Work Day Scheduler",
-        technologies: ["MERN stack", "Passport.js", "bcrypt"],
+        technologies: [" Javascript", "Moment.js"],
         imageSource: "imgs/scheduler-window.png",
         imageAlt: "work scheduler",
         projectLink: "https://rsg71.github.io/Work-Scheduler/",
@@ -56,7 +56,7 @@ const myProjects = [
     {
         id: 7,
         name: "Password Generator",
-        technologies: ["MERN stack", "Passport.js", "bcrypt"],
+        technologies: ["Javascript"],
         imageSource: "imgs/password-generator-shotsnapp.png",
         imageAlt: "afdsfdsfsdfsfdsf",
         projectLink: "https://rsg71.github.io/Password-Generator/",
@@ -65,7 +65,7 @@ const myProjects = [
     {
         id: 8,
         name: "Employee Tracker",
-        technologies: ["MERN stack", "Passport.js", "bcrypt"],
+        technologies: ["Javascript"],
         imageSource: "imgs/employee-tracker-shotsnapp.png",
         imageAlt: "employee tracker",
         projectLink: "https://github.com/rsg71/Employee_Tracker",

@@ -19,7 +19,10 @@ export default function Contact() {
 
             <Jumbotron title="Contact" />
 
-            <ContactForm />
+            <div className="homeContainer paddingHomepage">
+
+                <ContactForm />
+            </div>
 
             <Footer />
         </div>
