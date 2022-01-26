@@ -58,7 +58,7 @@ export default function Home() {
 
                     <Row className="paddingHomepage mb-3">
                         {myProjects.slice(0, 2).map(project => (
-                            <Col key={project.id} sm={6} md={6} lg={4} className="mb-3">
+                            <Col key={project.id} sm={6} md={6} lg={6} className="mb-3">
                                 <ProjectCard project={project} />
                             </Col>
                         ))}
@@ -66,7 +66,7 @@ export default function Home() {
 
                     <Row className="paddingHomepage mb-3">
                         {myProjects.slice(2, 4).map(project => (
-                            <Col key={project.id} sm={6} md={6} lg={4} className="mb-3">
+                            <Col key={project.id} sm={6} md={6} lg={6} className="mb-3">
                                 <ProjectCard project={project} />
                             </Col>
                         ))}
@@ -82,7 +82,7 @@ export default function Home() {
 
                     <Row className="paddingHomepage mb-3">
                         {myProjects.slice(6, 8).map(project => (
-                            <Col key={project.id} sm={6} md={6} lg={4} className="mb-3">
+                            <Col key={project.id} sm={6} md={6} lg={6} className="mb-3">
                                 <ProjectCard project={project} />
                             </Col>
                         ))}
