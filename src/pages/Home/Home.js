@@ -89,7 +89,6 @@ export default function Home() {
                     </Row>
                 </div>
 
-                <Footer />
 
             </Container>
         </div>

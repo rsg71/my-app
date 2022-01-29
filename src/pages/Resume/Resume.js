@@ -34,8 +34,6 @@ export default function Resume() {
             </div>
 
 
-
-            <Footer />
         </div >
     );
 }

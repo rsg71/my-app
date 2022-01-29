@@ -16,7 +16,7 @@ export default function Portfolio() {
 
             <Jumbotron title="Portfolio" />
 
-            <Container>
+            <Container fluid className="px-0 appContainer">
                 <div className="homeContainer">
 
                     <Row className="mt-3">
@@ -53,7 +53,6 @@ export default function Portfolio() {
                 </div>
             </Container>
 
-            <Footer />
         </div>
     );
 }

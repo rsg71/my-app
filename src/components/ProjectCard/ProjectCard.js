@@ -1,7 +1,7 @@
 import React from 'react';
 
 export default function ProjectCard({ project }) {
-    const { imageSource, imageAlt, projectLink, repoLink, technologies } = project;
+    const { imageSource, imageAlt, projectLink, repoLink, technologies, name } = project;
 
     let lastIndex = technologies.length - 1;
 
@@ -10,7 +10,7 @@ export default function ProjectCard({ project }) {
             <div className="image">
                 <img className="image__img" src={imageSource} alt={imageAlt} style={{ maxWidth: "100%" }} />
                 <div className="image__overlay">
-                    <div className="image__title">Table Turner </div>
+                    <div className="image__title">{name}</div>
                     <p className="image__description introlight">
                         {technologies.map(technology => {
                             if (technologies.indexOf(technology) === lastIndex) {
@@ -21,7 +21,7 @@ export default function ProjectCard({ project }) {
                         })}
                     </p>
                     <span>
-                        <a className="btn btn-light" target="_blank" href={projectLink} rel="noreferrer">View
+                        <a className="btn btn-light me-2" target="_blank" href={projectLink} rel="noreferrer">View
                             Project</a>
                         <a className="btn btn-dark" target="_blank" href={repoLink} rel="noreferrer"> <i
                             className="fas fa-code"></i> View Code</a>

@@ -5,6 +5,7 @@ import Portfolio from './pages/Portfolio/Portfolio';
 import Resume from './pages/Resume/Resume';
 import Contact from './pages/Contact/Contact';
 import ScrollToTop from './components/ScrollToTop';
+import Footer from './components/Footer/Footer';
 import './App.css';
 
 
@@ -19,6 +20,8 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </ScrollToTop>
+      <Footer />
+
     </>
   );
 }
