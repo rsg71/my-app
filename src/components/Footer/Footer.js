@@ -1,34 +1,36 @@
 import React from 'react';
+import { Col, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import "./Footer.css"
 
 export default function Footer() {
     return (
         <div>
             <div className="container-fluid fluidFooter mt-5" style={{ textAlign: "center" }}>
-                <div className="row">
-                    <div className="col">
+                <Row>
+                    <Col>
                         <h5>Account Links</h5>
                         <p>
-                            <a href="https://github.com/rsg71" target="_blank" rel="noreferrer">Github <i className="fab fa-github"></i></a>
+                            <a className="noUnderLine" href="https://github.com/rsg71" target="_blank" rel="noreferrer">Github <i className="fab fa-github"></i></a>
                         </p>
                         <p>
-                            <a href="https://www.linkedin.com/in/robert-greenawalt/" target="_blank" rel="noreferrer">LinkedIn <i
+                            <a className="noUnderLine" href="https://www.linkedin.com/in/robert-greenawalt/" target="_blank" rel="noreferrer">LinkedIn <i
                                 className="fab fa-linkedin"></i></a>
                         </p>
-                    </div>
-                    <div className="col">
+                    </Col>
+                    <Col>
                         <h5>Site Navigation</h5>
-                        <p><Link to="/portfolio">Portfolio</Link></p>
-                        <p><Link to="/resume">Resume</Link></p>
-                        <p><Link to="/contact">Contact</Link></p>
-                    </div>
-                    <div className="col">
+                        <p><Link to="/portfolio" className="noUnderLine">Portfolio</Link></p>
+                        <p><Link to="/resume" className="noUnderLine">Resume</Link></p>
+                        <p><Link to="/contact" className="noUnderLine">Contact</Link></p>
+                    </Col>
+                    <Col>
                         <h5>Get in Touch</h5>
-                        <p><a href="mailto:robert.greenawalt29@gmail.com">
+                        <p><a className="noUnderLine" href="mailto:robert.greenawalt29@gmail.com">
                             robert.greenawalt29@gmail.com</a></p>
-                        <p><a href="tel:215.913.7231">(215)-913-7231</a></p>
-                    </div>
-                </div>
+                        <p><a className="noUnderLine" href="tel:215.913.7231">(215)-913-7231</a></p>
+                    </Col>
+                </Row>
             </div>
 
         </div>

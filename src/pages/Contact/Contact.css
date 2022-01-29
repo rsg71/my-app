@@ -54,9 +54,21 @@
         margin-right: auto !important;
     }
 
-    .paddingHomepage {
+    .paddingContact {
         padding-left: 10%;
         padding-right: 10%;
     }
 
+}
+
+@media all and (max-width: 576px) {
+    .homeContainer {
+        min-width: 100% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+    .paddingContact{ 
+        padding-left: 0;
+        padding-right: 0;
+    }
 }

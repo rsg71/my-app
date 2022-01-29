@@ -2,6 +2,10 @@
   text-align: center;
 } */
 
+html, body {
+  min-height: 100vh;
+}
+
 /* .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -42,6 +46,10 @@
 
 img {
   max-width: 100%;
+}
+
+a.noUnderLine {
+  text-decoration: none;
 }
 
 
@@ -87,6 +95,10 @@ img {
 }
 
 @media all and (max-width: 576px) {
+
+  .appContainer {
+    max-width: 72% !important;
+  }
 
   .myContainer {
     width: 85% !important;

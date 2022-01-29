@@ -92,7 +92,7 @@
 
 @media all and (max-width: 576px) {
     .homeContainer {
-        max-width: 100% !important;
+        min-width: 100% !important;
         margin-left: auto !important;
         margin-right: auto !important;
     }
