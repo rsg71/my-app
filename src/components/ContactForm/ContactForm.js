@@ -36,7 +36,7 @@ export default function ContactForm() {
             });
     }
 
-
+    const sendingInputStyle = "form-control mb-2 sendingForm text-light";
 
 
 
@@ -67,25 +67,25 @@ export default function ContactForm() {
                             <div className="form-group">
                                 <input type="hidden" name="contact_number" />
                                 <label htmlFor="username">Your Name</label>
-                                <input name="user_name" type="text" className={sending ? "form-control mb-2 sendingForm" : "form-control mb-2"} id="username" required disabled={sending} />
+                                <input name="user_name" type="text" className={sending ? sendingInputStyle : "form-control mb-2"} id="username" required disabled={sending} autoFocus />
                             </div>
 
                             <div className="form-group">
                                 <label htmlFor="useremail">Your Email</label>
-                                <input name="user_email" type="email" className={sending ? "form-control mb-2 sendingForm" : "form-control mb-2"} id="useremail" placeholder="name@mail.com"
+                                <input name="user_email" type="email" className={sending ? sendingInputStyle : "form-control mb-2"} id="useremail" placeholder="name@mail.com"
                                     required disabled={sending} />
                             </div>
 
                             <div className="form-group">
                                 <label htmlFor="inputTextarea">Message</label>
-                                <textarea name="message" className={sending ? "form-control mb-2 sendingForm" : "form-control mb-2"} id="usermessage" rows="3" required disabled={sending} ></textarea>
+                                <textarea name="message" className={sending ? sendingInputStyle : "form-control mb-2"} id="usermessage" rows="3" required disabled={sending} ></textarea>
                             </div>
 
                             <input type="hidden" name="_subject" value="Personal Portfolio Email" />
                             <input type="hidden" name="_next" value="https://robertgreenawalt.com/contact.html" />
 
 
-                            <button type="submit" className="btn btn-primary mt-2" id="contactSubmitBtn" value="Submit">
+                            <button type="submit" className="btn btn-primary mt-2" id="contactSubmitBtn" value="Submit" disabled={sending}>
                                 {sending && <span>  <Spinner animation="border" variant="light" size="sm" /> Sending...</span>}
                                 {!sending && "Submit"}
                             </button>

@@ -48,11 +48,17 @@ img {
   max-width: 100%;
 }
 
+.image__description {
+  font-size: small;
+}
+
 a.noUnderLine {
   text-decoration: none;
 }
 
-
+.underline-red {
+  border-bottom: 3px solid rgb(204, 16, 16);
+}
 
 /* @keyframes App-logo-spin {
   from {

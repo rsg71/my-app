@@ -5,7 +5,7 @@ import "./Footer.css"
 
 export default function Footer() {
     return (
-        <div>
+        <div style={{marginTop: "6rem"}}>
             <div className="container-fluid fluidFooter mt-5" style={{ textAlign: "center" }}>
                 <Row>
                     <Col>

@@ -6,12 +6,12 @@ export default function ProjectCard({ project }) {
     let lastIndex = technologies.length - 1;
 
     return (
-        <div className="animate__animated animate__fadeIn">
+        <div className="animate__animated animate__fadeIn rounded">
             <div className="image">
-                <img className="image__img" src={imageSource} alt={imageAlt} style={{ maxWidth: "100%" }} />
+                <img className="image__img" src={imageSource} alt={imageAlt} style={{ maxWidth: "100%", borderRadius: "4px"}} />
                 <div className="image__overlay">
                     <div className="image__title">{name}</div>
-                    <p className="image__description introlight">
+                    <p className="image__description introlight mx-2">
                         {technologies.map(technology => {
                             if (technologies.indexOf(technology) === lastIndex) {
                                 return technology

@@ -24,16 +24,16 @@ export default function NavigationBar() {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
-                            <Nav.Link as={Link} to="/" className={pathname === "/" && "text-white"}>
+                            <Nav.Link as={Link} to="/" className={pathname === "/" && "text-white underline-red"}>
                                 Home
                             </Nav.Link>
-                            <Nav.Link as={Link} to="/portfolio" className={pathname === "/portfolio" && "text-white"}>
+                            <Nav.Link as={Link} to="/portfolio" className={pathname === "/portfolio" && "text-white underline-red"}>
                                 Portfolio
                             </Nav.Link>
-                            <Nav.Link as={Link} to="/resume" className={pathname === "/resume" && "text-white"}>
+                            <Nav.Link as={Link} to="/resume" className={pathname === "/resume" && "text-white underline-red"}>
                                 Resume
                             </Nav.Link>
-                            <Nav.Link as={Link} to="/contact" className={pathname === "/contact" && "text-white"}>
+                            <Nav.Link as={Link} to="/contact" className={pathname === "/contact" && "text-white underline-red"}>
                                 Contact
                             </Nav.Link>
                         </Nav>
