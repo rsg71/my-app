@@ -23,7 +23,7 @@ export default function Portfolio() {
 
                         <div>
 
-                            <Row className="mt-3 mb-3">
+                            <Row className="mt-5 mb-3">
                                 {myProjects.slice(0, 2).map(project => (
                                     <Col key={project.id} sm={12} md={6} className="mb-3 d-flex align-items-center">
                                         <ProjectCard project={project} />
