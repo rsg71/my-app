@@ -49,13 +49,13 @@ export default function ContactForm() {
                 <Col sm={12} lg={6} className="">
                     <Row>
                         <div className="contactEmailPhone">
-                            <h1><i className="far fa-envelope"></i> Email:</h1>
+                            <h1 className="recursiveFont"><i className="far fa-envelope"></i> Email:</h1>
                             <a href="mailto:robert.greenawalt29@gmail.com">robert.greenawalt29@gmail.com</a>
                         </div>
                     </Row>
                     <Row>
                         <div className="contactEmailPhone">
-                            <h1><i className="fas fa-phone-alt"></i> Phone: </h1>
+                            <h1 className="recursiveFont"><i className="fas fa-phone-alt"></i> Phone: </h1>
                             <a href="tel:2159137231"> (215) - 913 - 7231</a>
                         </div>
                     </Row>

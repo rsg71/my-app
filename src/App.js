@@ -6,9 +6,9 @@ import Resume from './pages/Resume/Resume';
 import Contact from './pages/Contact/Contact';
 import ScrollToTop from './components/ScrollToTop';
 import Footer from './components/Footer/Footer';
+import NavigationBar from './components/NavigationBar/NavigationBar';
 import 'animate.css';
 import './App.css';
-import NavigationBar from './components/NavigationBar/NavigationBar';
 
 
 function App() {

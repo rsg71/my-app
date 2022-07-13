@@ -24,7 +24,7 @@ export default function Resume() {
 
                 <div className="row" style={{ marginBottom: "20em" }}>
                     <div className="col-lg-12">
-                        <img src={process.env.PUBLIC_URL+"imgs/resume/resume-robert.png"} className="resume mb-5" alt="resume"/>
+                        <img src={process.env.PUBLIC_URL+"imgs/resume/Robert-resume-latest.png"} className="resume mb-5" alt="resume"/>
                     </div>
                 </div>
 
