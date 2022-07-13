@@ -7,10 +7,12 @@ import { Link, useLocation } from 'react-router-dom';
 export default function NavigationBar() {
     const { pathname } = useLocation();
 
+    const selectedPageClass = "text-white underline-red font-smaller";
+    const notSelected = "font-smaller";
 
     return (
         < >
-            <Navbar bg="black" expand="lg" variant="dark" >
+            <Navbar bg="black" expand="lg" variant="dark" className="recursiveFont">
                 <Container>
                     <Navbar.Brand as={Link} to="/" >
                         <img
@@ -24,16 +26,16 @@ export default function NavigationBar() {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
-                            <Nav.Link as={Link} to="/" className={pathname === "/" && "text-white underline-red"}>
+                            <Nav.Link as={Link} to="/" className={pathname === "/" ? selectedPageClass : notSelected}>
                                 Home
                             </Nav.Link>
-                            <Nav.Link as={Link} to="/portfolio" className={pathname === "/portfolio" && "text-white underline-red"}>
+                            <Nav.Link as={Link} to="/portfolio" className={pathname === "/portfolio" ? selectedPageClass : notSelected}>
                                 Portfolio
                             </Nav.Link>
-                            <Nav.Link as={Link} to="/resume" className={pathname === "/resume" && "text-white underline-red"}>
+                            <Nav.Link as={Link} to="/resume" className={pathname === "/resume" ? selectedPageClass : notSelected}>
                                 Resume
                             </Nav.Link>
-                            <Nav.Link as={Link} to="/contact" className={pathname === "/contact" && "text-white underline-red"}>
+                            <Nav.Link as={Link} to="/contact" className={pathname === "/contact" ? selectedPageClass : notSelected}>
                                 Contact
                             </Nav.Link>
                         </Nav>

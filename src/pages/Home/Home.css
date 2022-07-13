@@ -1,12 +1,16 @@
-#introHello {
-    font-family: 'Bungee Shade', cursive;
 
+
+.bungeeFont {
+    font-family: 'Bungee Shade', cursive;
 }
 
 .recursiveFont {
-    /* font-family: 'Recursive', sans-serif; */
+    font-family: 'Roboto Mono', monospace;
 }
 
+.font-bold {
+    font-weight: bold;
+}
 
 
 /* =============================================== */

@@ -32,6 +32,14 @@ html, body {
   color: #61dafb;
 } */
 
+.font-smaller {
+  font-size: smaller;
+}
+
+.animate__animated.animate__fadeIn {
+  --animate-duration: 2s;
+}
+
 .jumbotron {
   border-radius: 0 !important;
   /* background-color:whitesmoke; */
@@ -43,6 +51,10 @@ html, body {
   font-family: 'Bungee Shade', cursive;
 }
 
+
+.iamYam {
+  font-family: 'Cormorant SC', serif;
+}
 
 img {
   max-width: 100%;
