@@ -32,6 +32,11 @@ html, body {
   color: #61dafb;
 } */
 
+
+.animate__animated.animate__fadeIn {
+  --animate-duration: 2s;
+}
+
 .jumbotron {
   border-radius: 0 !important;
   /* background-color:whitesmoke; */

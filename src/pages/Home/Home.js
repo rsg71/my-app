@@ -1,14 +1,12 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import NavigationBar from '../../components/NavigationBar/NavigationBar';
 import ProjectCard from '../../components/ProjectCard/ProjectCard';
 import myProjects from '../../data/Projects';
 import "./Home.css"
 
 export default function Home() {
     return (
-        <div className="bg-black">
-            <NavigationBar />
+        <div className="bg-black animate__animated animate__fadeIn">
 
             {/* md={{ span: 3, offset: 1 }} */}
             <Container>

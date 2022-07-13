@@ -2,7 +2,6 @@ import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import ProjectCard from '../../components/ProjectCard/ProjectCard';
 import myProjects from '../../data/Projects';
-import NavigationBar from '../../components/NavigationBar/NavigationBar';
 import Jumbotron from '../../components/Jumbotron/Jumbotron';
 import "./Portfolio.css";
 
@@ -11,7 +10,6 @@ export default function Portfolio() {
     return (
         <div className="bg-black text-white">
 
-            <NavigationBar />
 
             <Jumbotron title="Portfolio" />
 
