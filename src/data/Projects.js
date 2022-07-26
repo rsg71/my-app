@@ -44,14 +44,23 @@ const myProjects = [
         projectLink: "https://rsg71.github.io/Weather-App/",
         repoLink: "https://github.com/rsg71/Weather-App"
     },
+    // {
+    //     id: 5,
+    //     name: "Brewery Finder",
+    //     technologies: ["Javascript", "Yelp API", "OpenBreweryDB API", "Google Maps API"],
+    //     imageSource: "imgs/brewery-finder-shotsnapp.png",
+    //     imageAlt: "brewery finder",
+    //     projectLink: "https://lambaa94.github.io/Brewery-Finder/",
+    //     repoLink: "https://github.com/rsg71/Brewery-Finder"
+    // },
     {
         id: 5,
-        name: "Brewery Finder",
-        technologies: ["Javascript", "Yelp API", "OpenBreweryDB API", "Google Maps API"],
-        imageSource: "imgs/brewery-finder-shotsnapp.png",
-        imageAlt: "brewery finder",
-        projectLink: "https://lambaa94.github.io/Brewery-Finder/",
-        repoLink: "https://github.com/rsg71/Brewery-Finder"
+        name: "Employee Tracker",
+        technologies: ["Javascript"],
+        imageSource: "imgs/employee-tracker-shotsnapp.png",
+        imageAlt: "employee tracker",
+        projectLink: "https://github.com/rsg71/Employee_Tracker",
+        repoLink: "https://github.com/rsg71/Employee_Tracker"
     },
     {
         id: 6,
@@ -71,15 +80,15 @@ const myProjects = [
         projectLink: "https://rsg71.github.io/Password-Generator/",
         repoLink: "https://github.com/rsg71/Password-Generator"
     },
-    {
-        id: 8,
-        name: "Employee Tracker",
-        technologies: ["Javascript"],
-        imageSource: "imgs/employee-tracker-shotsnapp.png",
-        imageAlt: "employee tracker",
-        projectLink: "https://github.com/rsg71/Employee_Tracker",
-        repoLink: "https://github.com/rsg71/Employee_Tracker"
-    },
+    // {
+    //     id: 8,
+    //     name: "Employee Tracker",
+    //     technologies: ["Javascript"],
+    //     imageSource: "imgs/employee-tracker-shotsnapp.png",
+    //     imageAlt: "employee tracker",
+    //     projectLink: "https://github.com/rsg71/Employee_Tracker",
+    //     repoLink: "https://github.com/rsg71/Employee_Tracker"
+    // },
 
 
 ]
