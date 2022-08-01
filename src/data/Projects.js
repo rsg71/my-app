@@ -2,7 +2,7 @@ const myProjects = [
     {
         id: 0,
         name: "RG Language",
-        technologies: ["MERN stack", "Passport.js", "bcrypt"],
+        technologies: ["MERN stack", "Typescript", "Passport.js", "bcrypt"],
         imageSource: "imgs/rg-language-screenshot-shotsnapp.png",
         imageAlt: "rg language",
         projectLink: "https://rg-language.herokuapp.com/",
