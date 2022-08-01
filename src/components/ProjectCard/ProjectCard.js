@@ -10,7 +10,7 @@ export default function ProjectCard({ project }) {
             <div className="image">
                 <img className="image__img" src={imageSource} alt={imageAlt} style={{ maxWidth: "100%", borderRadius: "4px"}} />
                 <div className="image__overlay">
-                    <div className="image__title">{name}</div>
+                    <div className="image__title" style={{textAlign: "center"}}>{name}</div>
                     <p className="image__description introlight mx-2">
                         {technologies.map(technology => {
                             if (technologies.indexOf(technology) === lastIndex) {
