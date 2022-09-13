@@ -44,15 +44,7 @@ const myProjects = [
         projectLink: "https://rsg71.github.io/Weather-App/",
         repoLink: "https://github.com/rsg71/Weather-App"
     },
-    // {
-    //     id: 5,
-    //     name: "Brewery Finder",
-    //     technologies: ["Javascript", "Yelp API", "OpenBreweryDB API", "Google Maps API"],
-    //     imageSource: "imgs/brewery-finder-shotsnapp.png",
-    //     imageAlt: "brewery finder",
-    //     projectLink: "https://lambaa94.github.io/Brewery-Finder/",
-    //     repoLink: "https://github.com/rsg71/Brewery-Finder"
-    // },
+
     {
         id: 5,
         name: "Employee Tracker",
@@ -73,22 +65,31 @@ const myProjects = [
     },
     {
         id: 7,
+        name: "Mario",
+        technologies: ["Javascript, Kaboom.js"],
+        imageSource: "imgs/mario-platform.png",
+        imageAlt: "mario",
+        projectLink: "https://rsg71.github.io/mario-platform/",
+        repoLink: "https://github.com/rsg71/mario-platform"
+    },
+    {
+        id: 8,
         name: "Password Generator",
         technologies: ["Javascript"],
         imageSource: "imgs/password-generator-shotsnapp.png",
-        imageAlt: "afdsfdsfsdfsfdsf",
+        imageAlt: "password generator",
         projectLink: "https://rsg71.github.io/Password-Generator/",
         repoLink: "https://github.com/rsg71/Password-Generator"
     },
-    // {
-    //     id: 8,
-    //     name: "Employee Tracker",
-    //     technologies: ["Javascript"],
-    //     imageSource: "imgs/employee-tracker-shotsnapp.png",
-    //     imageAlt: "employee tracker",
-    //     projectLink: "https://github.com/rsg71/Employee_Tracker",
-    //     repoLink: "https://github.com/rsg71/Employee_Tracker"
-    // },
+    {
+        id: 10,
+        name: "Brewery Finder",
+        technologies: ["Javascript", "Yelp API", "OpenBreweryDB API", "Google Maps API"],
+        imageSource: "imgs/brewery-finder-shotsnapp.png",
+        imageAlt: "brewery finder",
+        projectLink: "https://lambaa94.github.io/Brewery-Finder/",
+        repoLink: "https://github.com/rsg71/Brewery-Finder"
+    },
 
 
 ]
