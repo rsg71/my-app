@@ -87,7 +87,7 @@ const myProjects = [
         technologies: ["Javascript", "Yelp API", "OpenBreweryDB API", "Google Maps API"],
         imageSource: "imgs/brewery-finder-shotsnapp.png",
         imageAlt: "brewery finder",
-        projectLink: "https://lambaa94.github.io/Brewery-Finder/",
+        projectLink: "https://rsg71.github.io/Brewery-Finder/",
         repoLink: "https://github.com/rsg71/Brewery-Finder"
     },
 
