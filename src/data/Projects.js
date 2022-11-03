@@ -23,8 +23,8 @@ const myProjects = [
         technologies: ["MySQL", "Express", "Node", "Passport", "Javascript", "Google Maps API"],
         imageSource: "imgs/restaurant-finder-shotsnapp-screen.png",
         imageAlt: "restaurant finder",
-        projectLink: "https://findtherestaurant500.herokuapp.com/",
-        repoLink: "https://github.com/rsg71/Restaurant_Finder"
+        projectLink: "https://find-restaurant42.herokuapp.com/",
+        repoLink: "https://github.com/rsg71/Find-Restaurant"
     },
     {
         id: 3,
