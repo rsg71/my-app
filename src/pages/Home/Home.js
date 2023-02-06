@@ -12,6 +12,7 @@ export default function Home() {
     const linkedInLink = "https://www.linkedin.com/in/robert-greenawalt/";
     const email = "mailto:robert.greenawalt29@gmail.com";
 
+    const contactLink = "contact.html#/contact";
 
     return (
         <div className="bg-black animate__animated animate__fadeIn">
@@ -42,7 +43,8 @@ export default function Home() {
                                     <h2 className="recursiveFont"> I'm Robert, a <em className="recursiveFont">full-stack developer</em> and lifelong
                                         learner.</h2>
                                     <br />
-                                    <p className="coreCompetencies recursiveFont">Core competencies include: MongoDB, MySQL, Express, React, and Node. Check out some of my work in my <Link to="/portfolio">portfolio</Link>, add me on <a href="https://www.linkedin.com/in/robert-greenawalt-43457a14a/" target="_blank" rel="noreferrer" className="font-bold">LinkedIn</a>, or send me an <Link to="/contact">email</Link>.
+                                    <p className="coreCompetencies recursiveFont">Core competencies include: MongoDB, MySQL, Express, React, and Node. Check out some of my work in my <Link to="/portfolio">portfolio</Link>, add me on <a href="https://www.linkedin.com/in/robert-greenawalt-43457a14a/" target="_blank" rel="noreferrer" className="font-bold">LinkedIn</a>, or send me an
+                                        <a href={contactLink} className="font-bold"> email</a>.
                                     </p>
                                 </div>
                             </div>
