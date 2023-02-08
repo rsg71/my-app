@@ -14,7 +14,7 @@ const myProjects = [
         technologies: ["MERN stack", "Passport.js", "bcrypt"],
         imageSource: "imgs/tableturner_menu-iPad-Air-2.png",
         imageAlt: "table turner",
-        projectLink: "https://tableturner.herokuapp.com/landing",
+        projectLink: "https://table-turner.herokuapp.com",
         repoLink: "https://github.com/rsg71/Table-Turner"
     },
     {
