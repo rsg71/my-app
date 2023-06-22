@@ -55,7 +55,16 @@ const myProjects = [
         repoLink: "https://github.com/rsg71/Employee_Tracker"
     },
     {
-        id: 6,
+        id: 7,
+        name: "Blackjack",
+        technologies: ["Typescript", "React"],
+        imageSource: "imgs/Blackjack.PNG",
+        imageAlt: "blackjack",
+        projectLink: "https://rsg71.github.io/Blackjack/",
+        repoLink: "https://github.com/rsg71/Blackjack"
+    },
+    {
+        id: 8,
         name: "Work Day Scheduler",
         technologies: [" Javascript", "Moment.js"],
         imageSource: "imgs/scheduler-window.png",
@@ -64,16 +73,16 @@ const myProjects = [
         repoLink: "https://github.com/rsg71/Work-Scheduler"
     },
     {
-        id: 7,
+        id: 9,
         name: "Mario",
         technologies: ["Javascript, Kaboom.js"],
-        imageSource: "imgs/mario-platform.png",
+        imageSource: "imgs/mario-capture.PNG",
         imageAlt: "mario",
         projectLink: "https://rsg71.github.io/mario-platform/",
         repoLink: "https://github.com/rsg71/mario-platform"
     },
     {
-        id: 8,
+        id: 10,
         name: "Password Generator",
         technologies: ["Javascript"],
         imageSource: "imgs/password-generator-shotsnapp.png",
@@ -82,7 +91,7 @@ const myProjects = [
         repoLink: "https://github.com/rsg71/Password-Generator"
     },
     {
-        id: 10,
+        id: 11,
         name: "Brewery Finder",
         technologies: ["Javascript", "Yelp API", "OpenBreweryDB API", "Google Maps API"],
         imageSource: "imgs/brewery-finder-shotsnapp.png",

@@ -60,6 +60,14 @@ export default function Portfolio() {
                                     </Col>
                                 ))}
                             </Row>
+
+                            <Row className="mb-3">
+                                {myProjects.slice(10, 11).map(project => (
+                                    <Col key={project.id} sm={12} md={6} className="mb-3 d-flex align-items-center">
+                                        <ProjectCard project={project} />
+                                    </Col>
+                                ))}
+                            </Row>
                         </div>
                     </Col>
 
