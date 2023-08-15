@@ -45,7 +45,7 @@ export default function ContactForm() {
 
     return (
         <>
-            <Row className="m-5">
+            <Row className="m-5 ">
                 <Col sm={12} lg={6} className="">
                     <Row>
                         <div className="contactEmailPhone">
@@ -56,7 +56,7 @@ export default function ContactForm() {
                     <Row>
                         <div className="contactEmailPhone">
                             <h1 className="recursiveFont"><i className="fas fa-phone-alt"></i> Phone: </h1>
-                            <a href="tel:2159137231"> (215) - 913 - 7231</a>
+                            <a href="tel:2159137231"> +1 (215) 913 - 7231</a>
                         </div>
                     </Row>
                 </Col>

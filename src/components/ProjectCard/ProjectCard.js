@@ -10,8 +10,8 @@ export default function ProjectCard({ project }) {
             <div className="image">
                 <img className="image__img" src={imageSource} alt={imageAlt} style={{ maxWidth: "100%", borderRadius: "4px"}} />
                 <div className="image__overlay">
-                    <div className="image__title" style={{textAlign: "center"}}>{name}</div>
-                    <p className="image__description introlight mx-2">
+                    <div className="image__title recursiveFont" style={{textAlign: "center"}}>{name}</div>
+                    <p className="image__description introlight mx-2 recursiveFont">
                         {technologies.map(technology => {
                             if (technologies.indexOf(technology) === lastIndex) {
                                 return technology
@@ -21,9 +21,9 @@ export default function ProjectCard({ project }) {
                         })}
                     </p>
                     <span>
-                        <a className="btn btn-light me-2" target="_blank" href={projectLink} rel="noreferrer">View
+                        <a className="btn btn-light me-2 recursiveFont" target="_blank" href={projectLink} rel="noreferrer">View
                             Project</a>
-                        <a className="btn btn-dark" target="_blank" href={repoLink} rel="noreferrer"> <i
+                        <a className="btn btn-dark recursiveFont" target="_blank" href={repoLink} rel="noreferrer"> <i
                             className="fas fa-code"></i> View Code</a>
                     </span>
                 </div>
