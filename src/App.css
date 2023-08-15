@@ -6,6 +6,11 @@ html, body {
   min-height: 100vh;
 }
 
+
+.font-small {
+  font-size: 0.8em !important;
+}
+
 /* .App-logo {
   height: 40vmin;
   pointer-events: none;
